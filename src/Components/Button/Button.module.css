@@ -1,0 +1,25 @@
+.commonButton {
+    text-align: center;
+    margin: 10px;
+}
+
+.commonButton button {
+  background-color: #e8dcb8;
+  font-family: octoberCrow;
+  font-size: 20px;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.commonButton button:hover {
+  background-color: black;
+  color: whitesmoke;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
